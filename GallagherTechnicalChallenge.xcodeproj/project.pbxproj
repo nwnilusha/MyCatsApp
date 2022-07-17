@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A01D7804F8B10BAE066BB3 /* Pods_GallagherTechnicalChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69AF117B3FE42443285F784 /* Pods_GallagherTechnicalChallenge.framework */; };
 		F439E7BA2883076D0056FC72 /* GallagherTechnicalChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7B92883076D0056FC72 /* GallagherTechnicalChallengeApp.swift */; };
-		F439E7BC2883076D0056FC72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7BB2883076D0056FC72 /* ContentView.swift */; };
 		F439E7BE2883076E0056FC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F439E7BD2883076E0056FC72 /* Assets.xcassets */; };
 		F439E7C12883076E0056FC72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F439E7C02883076E0056FC72 /* Preview Assets.xcassets */; };
 		F439E7CB2883076E0056FC72 /* GallagherTechnicalChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7CA2883076E0056FC72 /* GallagherTechnicalChallengeTests.swift */; };
 		F439E7D52883076E0056FC72 /* GallagherTechnicalChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7D42883076E0056FC72 /* GallagherTechnicalChallengeUITests.swift */; };
 		F439E7D72883076E0056FC72 /* GallagherTechnicalChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7D62883076E0056FC72 /* GallagherTechnicalChallengeUITestsLaunchTests.swift */; };
+		F439E7E8288308810056FC72 /* CatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7E7288308810056FC72 /* CatsListView.swift */; };
+		F439E7EA288308BA0056FC72 /* CatsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7E9288308BA0056FC72 /* CatsListViewModel.swift */; };
+		F439E7EC288308D30056FC72 /* CatsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7EB288308D30056FC72 /* CatsListModel.swift */; };
+		F439E7EE2883091A0056FC72 /* CatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7ED2883091A0056FC72 /* CatsDetailView.swift */; };
+		F439E7F0288309320056FC72 /* CatsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7EF288309320056FC72 /* CatsDetailViewModel.swift */; };
+		F439E7F2288309590056FC72 /* CatsDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7F1288309590056FC72 /* CatsDetailModel.swift */; };
+		F439E7F4288309790056FC72 /* ImageTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439E7F3288309790056FC72 /* ImageTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7930107F5D78FB24ED1B0771 /* Pods-GallagherTechnicalChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallagherTechnicalChallenge.release.xcconfig"; path = "Target Support Files/Pods-GallagherTechnicalChallenge/Pods-GallagherTechnicalChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		A69AF117B3FE42443285F784 /* Pods_GallagherTechnicalChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GallagherTechnicalChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EC6AB788585021A1BBD490 /* Pods-GallagherTechnicalChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallagherTechnicalChallenge.debug.xcconfig"; path = "Target Support Files/Pods-GallagherTechnicalChallenge/Pods-GallagherTechnicalChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F439E7B62883076D0056FC72 /* GallagherTechnicalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GallagherTechnicalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439E7B92883076D0056FC72 /* GallagherTechnicalChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallagherTechnicalChallengeApp.swift; sourceTree = "<group>"; };
-		F439E7BB2883076D0056FC72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F439E7BD2883076E0056FC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F439E7C02883076E0056FC72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F439E7C62883076E0056FC72 /* GallagherTechnicalChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GallagherTechnicalChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,13 @@
 		F439E7D02883076E0056FC72 /* GallagherTechnicalChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GallagherTechnicalChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439E7D42883076E0056FC72 /* GallagherTechnicalChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallagherTechnicalChallengeUITests.swift; sourceTree = "<group>"; };
 		F439E7D62883076E0056FC72 /* GallagherTechnicalChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallagherTechnicalChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F439E7E7288308810056FC72 /* CatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListView.swift; sourceTree = "<group>"; };
+		F439E7E9288308BA0056FC72 /* CatsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListViewModel.swift; sourceTree = "<group>"; };
+		F439E7EB288308D30056FC72 /* CatsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListModel.swift; sourceTree = "<group>"; };
+		F439E7ED2883091A0056FC72 /* CatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsDetailView.swift; sourceTree = "<group>"; };
+		F439E7EF288309320056FC72 /* CatsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsDetailViewModel.swift; sourceTree = "<group>"; };
+		F439E7F1288309590056FC72 /* CatsDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsDetailModel.swift; sourceTree = "<group>"; };
+		F439E7F3288309790056FC72 /* ImageTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A01D7804F8B10BAE066BB3 /* Pods_GallagherTechnicalChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BE4A732A3A3E732D6FD667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC6AB788585021A1BBD490 /* Pods-GallagherTechnicalChallenge.debug.xcconfig */,
+				7930107F5D78FB24ED1B0771 /* Pods-GallagherTechnicalChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F439E7AD2883076C0056FC72 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +104,8 @@
 				F439E7C92883076E0056FC72 /* GallagherTechnicalChallengeTests */,
 				F439E7D32883076E0056FC72 /* GallagherTechnicalChallengeUITests */,
 				F439E7B72883076D0056FC72 /* Products */,
+				49BE4A732A3A3E732D6FD667 /* Pods */,
+				FA521D6974AC2D8CAFF34966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				F439E7B92883076D0056FC72 /* GallagherTechnicalChallengeApp.swift */,
-				F439E7BB2883076D0056FC72 /* ContentView.swift */,
+				F439E7E6288308540056FC72 /* CatsDetails */,
+				F439E7E5288308430056FC72 /* CatsList */,
+				F439E7E3288307B00056FC72 /* SelectImageType */,
 				F439E7BD2883076E0056FC72 /* Assets.xcassets */,
 				F439E7BF2883076E0056FC72 /* Preview Content */,
 			);
@@ -127,6 +157,42 @@
 			path = GallagherTechnicalChallengeUITests;
 			sourceTree = "<group>";
 		};
+		F439E7E3288307B00056FC72 /* SelectImageType */ = {
+			isa = PBXGroup;
+			children = (
+				F439E7F3288309790056FC72 /* ImageTypeView.swift */,
+			);
+			path = SelectImageType;
+			sourceTree = "<group>";
+		};
+		F439E7E5288308430056FC72 /* CatsList */ = {
+			isa = PBXGroup;
+			children = (
+				F439E7E7288308810056FC72 /* CatsListView.swift */,
+				F439E7E9288308BA0056FC72 /* CatsListViewModel.swift */,
+				F439E7EB288308D30056FC72 /* CatsListModel.swift */,
+			);
+			path = CatsList;
+			sourceTree = "<group>";
+		};
+		F439E7E6288308540056FC72 /* CatsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F439E7ED2883091A0056FC72 /* CatsDetailView.swift */,
+				F439E7EF288309320056FC72 /* CatsDetailViewModel.swift */,
+				F439E7F1288309590056FC72 /* CatsDetailModel.swift */,
+			);
+			path = CatsDetails;
+			sourceTree = "<group>";
+		};
+		FA521D6974AC2D8CAFF34966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF117B3FE42443285F784 /* Pods_GallagherTechnicalChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F439E7DA2883076E0056FC72 /* Build configuration list for PBXNativeTarget "GallagherTechnicalChallenge" */;
 			buildPhases = (
+				54164356C4FD42E46C9B8E98 /* [CP] Check Pods Manifest.lock */,
 				F439E7B22883076D0056FC72 /* Sources */,
 				F439E7B32883076D0056FC72 /* Frameworks */,
 				F439E7B42883076D0056FC72 /* Resources */,
@@ -252,13 +319,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54164356C4FD42E46C9B8E98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GallagherTechnicalChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F439E7B22883076D0056FC72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F439E7BC2883076D0056FC72 /* ContentView.swift in Sources */,
+				F439E7EC288308D30056FC72 /* CatsListModel.swift in Sources */,
+				F439E7EE2883091A0056FC72 /* CatsDetailView.swift in Sources */,
+				F439E7EA288308BA0056FC72 /* CatsListViewModel.swift in Sources */,
 				F439E7BA2883076D0056FC72 /* GallagherTechnicalChallengeApp.swift in Sources */,
+				F439E7F4288309790056FC72 /* ImageTypeView.swift in Sources */,
+				F439E7F0288309320056FC72 /* CatsDetailViewModel.swift in Sources */,
+				F439E7E8288308810056FC72 /* CatsListView.swift in Sources */,
+				F439E7F2288309590056FC72 /* CatsDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +509,7 @@
 		};
 		F439E7DB2883076E0056FC72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EC6AB788585021A1BBD490 /* Pods-GallagherTechnicalChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +540,7 @@
 		};
 		F439E7DC2883076E0056FC72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7930107F5D78FB24ED1B0771 /* Pods-GallagherTechnicalChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +555,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct GallagherTechnicalChallengeApp: App {
+    
+    init(){
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor.red]
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImageTypeView()
         }
     }
 }
